@@ -1,0 +1,485 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+a,
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+ol,
+ul {
+  list-style-type: none;
+}
+img {
+  vertical-align: middle;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ol,
+ul,
+li,
+span,
+input,
+form,
+.btn,
+textarea,
+.navbar,
+.navbar-brand,
+table,
+tr,
+td {
+  padding: 0;
+  margin: 0;
+}
+
+/* Default common css end*/
+/* common css start */
+body {
+  background-color: #fffaff;
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-size: 2.2rem;
+  color: #fffaff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: ;
+}
+h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #444444;
+}
+h4 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #272932;
+}
+h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #ff4500;
+}
+p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 1.5;
+  color: #444444;
+  text-align: justify;
+}
+a {
+  font-size: 0.9rem;
+  color: #ff4500;
+  font-weight: 500;
+  text-transform: capitalize;
+  transition: 0.4s;
+}
+.btn_common {
+  padding: 8px 20px;
+  background-color: transparent;
+  display: inline-block;
+  font-size: 0.9rem;
+  color: #fffaff;
+  font-weight: 400;
+  text-transform: capitalize;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-right: 15px;
+}
+.btn_common:hover{
+  color: #fffaff;
+  background-color: #ff4500;
+  border: 2px solid #ff4500;
+  transition: 0.4s;
+}
+.pt_60{
+  padding-top: 60px;
+}
+.py_60 {
+  padding: 60px 0px;
+}
+.mt_30 {
+  margin-top: 30px;
+}
+.mt_50{
+  margin-top: 50px;
+}
+/* common css end */
+/* top_header start */
+.top_header {
+  padding: 15px 0px;
+  background-color: #ff4400d5;
+}
+.top_left span a {
+  font-size: 0.9rem;
+  color: #fffaff;
+  font-weight: 400;
+}
+.top_left span {
+  padding-right: 20px;
+}
+.top_left span i {
+  font-size: 1rem;
+  color: #fffaff;
+  padding-right: 7px;
+}
+.top_right {
+  float: right;
+}
+.social_icon {
+}
+.social_icon li {
+  list-style: none;
+  display: inline;
+  padding: 0px 5px;
+}
+.social_icon li a {
+  font-size: 1rem;
+  color: #fffaff;
+}
+/* top_header end */
+/* navbar start */
+.menu_part {
+  padding: 15px 0px;
+}
+.menu .nav-item .nav-link {
+  padding: 0px 15px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #222222;!important
+  text-transform: uppercase;
+}
+.menu .nav-item .nav-link:last-child {
+  padding-right: 0px;
+}
+.menu .nav-item.active .nav-link,
+.menu .nav-item:hover .nav-link {
+  color: #ff4500;
+}
+/* navbar end */
+/* banner_part start */
+.banner_part{
+  background-image: url(../image/banner_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0px;
+  transform: scale(1);
+  opacity: 0.8;
+}
+.banner_part p:first-child{
+  color: #fffaff;
+  font-size: 1rem;
+  padding-bottom: 5px;
+}
+/* auto-witten section start */
+.nerdy-pen h1 {
+  word-spacing: 2px;
+}
+
+.nerdy-pen__text {
+  font-size: 35px;
+  font-weight: 600;
+  color: #ff4500;
+}
+.nerdy-pen_para {
+  padding-top: 15px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fffaff;
+}
+/* auto-witten section end */
+/* banner_part end */
+/* common_part start */
+
+.common_heading h5{
+  padding-bottom: 5px;
+}
+.common_heading p{
+  padding-top: 15px;
+  text-align: center;
+}
+/* common_part end */
+/* about_part start */
+.heading_underline h3{
+  position: relative;
+}
+.heading_underline h3::before{
+  position: absolute;
+  content: '';
+  width: 80px;
+  height: 3px;
+  background-color: #ff4500;
+  top: 45px;
+  left: 0;
+}
+/* skill_bar section start */
+.skills-bar { 
+  color: #444444;
+}
+
+
+.skills-bar .bar .info {
+  margin-bottom: 5px;
+}
+
+.skills-bar h5 {
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4), 0px 4px 13px rgba(0, 0, 0, 0.1);
+}
+
+.skills-bar .bar .info span {
+  font-weight: 500;
+  font-size: 0.9rem;
+  opacity: 0;
+  animation: showText 0.5s 1s linear forwards;
+}
+
+/* Bar itself */
+.skills-bar .bar .progress-line {
+  height: 10px;
+  width: 100%;
+  background: #f0f0f0;
+  position: relative;
+  transform: scaleX(0);
+  transform-origin: left;
+  border-radius: 10px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.5), 0 1px rgba(255, 255, 255, 0.8);
+  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+/* Skill's Bar */
+.bar .progress-line span {
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: #ff4500;
+  animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+/* Skill's length */
+.bar .progress-line.html span {
+  width: 90%;
+}
+
+.bar .progress-line.css span {
+  width: 80%;
+}
+
+.bar .progress-line.javascript span {
+  width: 60%;
+}
+
+.bar .progress-line.jquery span {
+  width: 65%;
+}
+
+.bar .progress-line.bootstrap span {
+  width: 75%;
+}
+
+/* Background for the percentage numbers */
+.progress-line span::before {
+  position: absolute;
+  content: "";
+  top: -10px;
+  right: 0;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: #000;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+
+/* Percentage numbers */
+.progress-line span::after {
+  position: absolute;
+  top: -28px;
+  right: 0;
+  font-weight: 500;
+  background: #000;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: 12px;
+  border-radius: 3px;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+
+.progress-line.html span::after {
+  content: "90%";
+}
+
+.progress-line.css span::after {
+  content: "80%";
+}
+
+.progress-line.javascript span::after {
+  content: "60%";
+}
+
+.progress-line.jquery span::after {
+  content: "65%";
+}
+.progress-line.bootstrap span::after {
+  content: "75%";
+}
+
+/* Animations */
+/* Bar's animation */
+@keyframes animate {
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+/* Skill's name animation */
+@keyframes showText {
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Percentage number's animation */
+@keyframes showText2 {
+  100% {
+    opacity: 1;
+  }
+}
+.about_content h5{
+  color: #444444;
+  padding-bottom: 10px;
+}
+/* about_part end */
+/* service_part start */
+.service_part{
+  background-color: #F0F1F3;
+}
+.service_item{
+  padding: 20px 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px #ff4500;
+  transition: 0.4s;
+  min-height: 240px;
+
+}
+.service_item .service_item_img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ff4500;
+  vertical-align: middle;
+}
+.service_item .service_item_img img{
+  width: 70%;
+  padding-top: 10px;
+}
+.service_item h5{
+  color: #444444;
+  padding: 15px 0px;
+}
+.service_item p{
+  text-align: left;
+}
+.service_item_1:hover .service_item_img{
+  background-color: #fff;
+}
+.service_item_1:hover .service_item{
+  background-color: #ff4500;
+  box-shadow: 0 5px 15px #ffffff;
+}
+.service_item_1:hover .service_item h5,
+.service_item_1:hover .service_item p{
+  color: #fff;
+}
+/* .service_item .service_item_1{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ff4500;
+  color: #fff;
+} */
+
+
+/* service_part end */
+/* owl_carousel start */
+.owl-carousel .item img{
+  position: relative;
+}
+.owl-carousel .item h4{
+  position: absolute;
+  left: 0;
+  bottom: 10%;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 0px 10px 10px 0px;
+  background-color: #ff4500;
+  font-size: 0.7rem;
+}
+/* owl_carousel end */
+.contact_part{
+  background-color: #F0F1F3;
+}
+
+.submit_massage{
+  transition: 0.4s;
+  color: #fff;
+  background-color: #000;
+}
+
+.footer_part{
+  background-color: #ff4500;
+}
+.footer_left h4{
+  color: #fff;
+  padding-bottom: 7px;
+  font-size: 1.5rem;
+}
+.footer_left p{
+  color: #fff;
+  font-weight: 400;
+}
+.res_menu li{
+  list-style: none;
+  display: block;
+  padding: 5px 0px;
+}
+.res_menu li a{
+  color: #fff;
+  
+}
+.footer_right li{
+  display: inline-block;
+}
+.footer_right ul li a{
+  color: #fff;
+}
+.footer_right ul li a i{
+  padding-right: 8px;
+}
