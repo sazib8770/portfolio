@@ -1,7 +1,6 @@
 /* extra Small devices (landscape phones, 576px and up) */
 @media (min-width: 320px) and (max-width: 575px) {
   .top_left span {
-    /* padding-right: 0px; */
     display: block;
   }
   .top_right {
